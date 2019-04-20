@@ -17,7 +17,7 @@ model.py uses  100d GloVe (Global Vectors) word embedding which can be downloade
 
 # Authors
 * **Yash Barapatre** - [Trailblazer97](https://github.com/Trailblazer97)
-* **Aditya Samant**
+* **Aditya Samant** - [adityasamant1997](https://github.com/adityasamant1997)
 
 
 # License
