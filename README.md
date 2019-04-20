@@ -23,7 +23,7 @@ The raw data must be stored in a folder named "dataset" and the files uploaded i
 # Running the codes
 Sequence of file execution is get_data.py -> model.py -> train.py -> predict.py
 
-Once train.py file is executed, a tokenizer and an LSTM model are saved locally in a .pickle and a .sav file format respectively. They are later retrieved for prediction. 
+Once train.py file is executed, a tokenizer and an LSTM model are saved locally in a .pickle and a .sav file format respectively. They are later retrieved for prediction. Currently the rnn_model.sav (trained classifier) has been trained with a validation accuracy of 95%. Epochs and batch size can be adjusted to get better results.
 
 # Downloading additional files
 * Dataset can be downloaded here: http://mlg.ucd.ie/datasets/bbc.html
