@@ -18,8 +18,8 @@ Sequence of file execution is get_data.py -> model.py -> train.py -> predict.py
 Once train.py file is executed, a tokenizer and an LSTM model are saved locally in a .sav and .pickle file format respectively. They are later retrieved for prediction. 
 
 # Downloading additional files
-Dataset can be downloaded here: http://mlg.ucd.ie/datasets/bbc.html
-model.py uses  100d GloVe (Global Vectors) word embedding which can be downloaded from https://nlp.stanford.edu/projects/glove/
+* Dataset can be downloaded here: http://mlg.ucd.ie/datasets/bbc.html
+* model.py uses  100d GloVe (Global Vectors) word embedding which can be downloaded from https://nlp.stanford.edu/projects/glove/
 
 # Authors
 * **Yash Barapatre** - [Trailblazer97](https://github.com/Trailblazer97)
