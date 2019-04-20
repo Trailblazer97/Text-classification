@@ -1,7 +1,15 @@
+# Mechanism 
+
+
 # Overview of Text Classification
 The project aims to classify text-based documents into appropriate categories. Today, we are surrounded by documents, news articles, online blogs and other forms of text. It has therefore become necessary to give some kind of order to all this textual information. A good way to do this is to categorize the text into labelled groups of similar articles. Sequence classification is a predictive modeling problem where you have some sequence of inputs over space or time and the task is to predict a category for the sequence. What makes this problem difficult is that the sequences can vary in length, be comprised of a very large vocabulary of input symbols and may require the model to learn the long-term context or dependencies between symbols in the input sequence. A solution to this problem of text categorization would be of great use in organizing documents in offices as well as providing news article feeds of the readers’ preference. The scope of the project comprises of categorizing text articles into five different classes. The dataset used for training is the freely online available dataset - BBC News Dataset. The classification is done with the help of special type of neural networks, called the LSTMs.
 
 # Prerequisites
+* Python 3
+* Keras
+* Numpy 
+* Pandas
+
 Please go through the codes once to see the names of the python libraries that are needed to be installed to run the project. 
 
 
