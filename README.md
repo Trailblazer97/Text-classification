@@ -5,6 +5,12 @@ Dataset can be downloaded here: http://mlg.ucd.ie/datasets/bbc.html
 
 The code section is divided into 4 parts: get_data.py, model.py, train.py and predict.py. The get_data.py file is used to convert the raw data files in text format from various documents into a consolidated .csv file format. model.py has various functions for further processing this data. train.py and predict.py, as their names suggest are used for training on the dataset and predicting the class/category of a text article respectively.
 
+model.py uses  100d GloVe (Global Vectors) word embedding which can be downloaded from https://nlp.stanford.edu/projects/glove/ 
+
 Sequence of file execution is get_data.py -> model.py -> train.py -> predict.py
 
 Once train.py file is executed, a tokenizer and an LSTM model are saved locally in a .sav and .pickle file format respectively. They are later retrieved for prediction. 
+
+
+#License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
