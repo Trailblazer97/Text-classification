@@ -12,5 +12,5 @@ Sequence of file execution is get_data.py -> model.py -> train.py -> predict.py
 Once train.py file is executed, a tokenizer and an LSTM model are saved locally in a .sav and .pickle file format respectively. They are later retrieved for prediction. 
 
 
-#License
+# License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
