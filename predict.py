@@ -27,6 +27,7 @@ output_class = []
 max_seq_len = 1000
 
 loaded_model = pickle.load(open('rnn_model.sav', 'rb'))
+indexed_type = pickle.load(open('indexed_type.sav', 'rb'))
 with open('tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
