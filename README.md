@@ -17,7 +17,7 @@ Please go through the codes once to see the names of the python libraries that a
 The code section is divided into 4 parts: get_data.py, model.py, train.py and predict.py. The get_data.py file is used to convert the raw data files in text format from various documents into a consolidated .csv file format. model.py has various functions for further processing this data. train.py and predict.py, as their names suggest are used for training on the dataset and predicting the class/category of a text article respectively.
 
 # Organizing the code and data
-The raw data must be stored in a folder named "dataset" and the files uploaded in this repository, along with the GloVe 100d vector must be stored in a folder named "model". The .csv data format file will be created in the"dataset folder itself once the get_data.py file is executed.
+The raw data must be stored in a folder named "dataset" and the files uploaded in this repository, along with the GloVe 100d vector must be stored in a folder named "model". The .csv data format file will be created in the "dataset" folder itself once the get_data.py file is executed.
  
 
 # Running the codes
