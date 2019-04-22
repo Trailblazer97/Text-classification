@@ -38,6 +38,7 @@ print(df.head())
 
 
 texts, labels, sorted_type, indexed_type = model.df_to_list(df, texts, labels)
+pickle.dump(indexed_type, open('indexed_type.sav', 'wb'))
 word_index, embedding_matrix, data, labels, sequences = model.tokenize(texts, labels)
 model, history = model.model(word_index, embedding_matrix, sorted_type, data, labels)
 model.save_model(model)
